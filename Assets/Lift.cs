@@ -13,7 +13,7 @@ public class Lift : MonoBehaviour
     private void Update()
     {
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(2))
             {
                 if (!canHold)
                     Throw_drop();

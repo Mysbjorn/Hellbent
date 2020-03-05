@@ -17,7 +17,7 @@ public class playerCombat : MonoBehaviour
     {
       if (Time.time >= nextAttackTime)
         {
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.Mouse1)) 
         {
           Attack();
                 //Talk();      

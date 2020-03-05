@@ -6,7 +6,7 @@ using Cinemachine;
 public class StarLauncher : MonoBehaviour
 {
     Animator animator;
-    MovementInput movement;
+    Movement movement;
     StarAnimation starAnimation;
     TrailRenderer trail;
 
@@ -44,7 +44,7 @@ public class StarLauncher : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        movement = GetComponent<MovementInput>();
+        movement = GetComponent<Movement>();
         trail = dollyCart.GetComponentInChildren<TrailRenderer>();
     }
 
