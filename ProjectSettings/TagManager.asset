@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CameraTrigger
+  - Launch
+  - PlayerEyes
+  - iCanbePickedup!
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - enemy
+  - breakable object
   - 
   - 
   - 

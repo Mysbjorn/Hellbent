@@ -39,18 +39,10 @@ public class playerCombat : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
             Debug.Log("You hit a thing");
         }
-    }
 
-    //void Talk()
-    //{
+
         
-    //    Collider[] npcs = Physics.OverlapCapsule(attackPoint.position, attackstartpoint.position, attackRange, hittableObjects);
-    //    foreach (Collider npc in npcs)
-    //    {
-    //        npc.GetComponent<Npc>().talking();
-    //        Debug.Log("You talked to a block u fucking dingus");
-    //    }
-    //}
+    }
 
     private void OnDrawGizmosSelected()
     {
